@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Gopher Explorer (The Lost Internet)
 Exec=xterm -title "Gopherspace (1991)" -e /home/sinx/Desktop/RetroToyBox/GopherExplorer.sh
-Icon=network-workgroup
+Icon=emblem-important
+GenericName=Hacker Tool
 Type=Application
 Comment=Browse the 1991 pre-web text internet
