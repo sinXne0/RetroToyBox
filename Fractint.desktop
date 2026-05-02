@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Fractint (1988 Fractal Explorer)
+Exec=xfractint
+Icon=/home/sinx/Desktop/RetroToyBox/hacker-icon.svg
+Type=Application
+Comment=The legendary 1988 "Stone Soup" fractal engine. Explore infinity.
+Terminal=true

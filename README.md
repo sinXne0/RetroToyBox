@@ -4,6 +4,7 @@ A collection of Linux `.desktop` files for quickly launching classic retro deskt
 
 ## Included Toys
 
+*   **Fractint (1988)**: The legendary "Stone Soup" fractal explorer. A professional-grade piece of 1980s mathematical software for exploring the infinite.
 *   **Gopher Explorer**: Access the "lost" text-based internet protocol from 1991.
 *   **Unix Workstation (CDE/Motif)**: The actual 1995 Motif Window Manager and Console environment.
 *   **Dashboard (OS X Style)**: A cluster of classic X11 widgets mimicking early OS X.
