@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=X-Planet (God View)
+Exec=/home/sinx/Desktop/RetroToyBox/XPlanet.sh
+Icon=/home/sinx/Desktop/RetroToyBox/earth-icon.svg
+Type=Application
+Comment=Real-time planetary rendering with live satellite and cloud data.
