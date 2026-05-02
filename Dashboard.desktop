@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Dashboard (OS X Style)
+Exec=/home/sinx/Desktop/RetroToyBox/Dashboard.sh
+Icon=utilities-desktop-extra
+Type=Application
+Comment=Classic OS X style widget cluster
