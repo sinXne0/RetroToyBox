@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=STOP ALL TOYS
+Exec=pkill xeyes; pkill oneko
+Icon=process-stop
+Type=Application
