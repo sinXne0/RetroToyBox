@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Unix Workstation (CDE/Motif)
 Exec=/home/sinx/Desktop/RetroToyBox/UnixWorkstation.sh
-Icon=computer-retro
+Icon=/home/sinx/Desktop/RetroToyBox/hacker-icon.svg
 Type=Application
 Comment=The actual 1995 Motif Window Manager and Console

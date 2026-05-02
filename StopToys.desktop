@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name=STOP ALL TOYS
 Exec=pkill xeyes; pkill oneko; pkill xcalc; pkill xclock; pkill xload
-Icon=process-stop
+Icon=/home/sinx/Desktop/RetroToyBox/skull-icon.svg
 Type=Application
