@@ -4,4 +4,5 @@
 # Fly through your directories in 3D.
 # Controls: WASD to move, Mouse to look, ESC to quit.
 
-tdfsb -w /home/sinx
+# Running without arguments starts at root or home
+tdfsb

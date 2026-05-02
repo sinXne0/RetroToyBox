@@ -1,7 +1,12 @@
 #!/bin/bash
 
 # X-Planet God View
-# Renders a real-time, high-res model of the Earth.
+# Renders a real-time, high-res model of the Earth to an image and opens it.
 
-# Use a specific geometry and update every 60 seconds
-xplanet -window -geometry 1200x800 -num_times 1 -wait 60
+OUTPUT="/tmp/xplanet_earth.png"
+
+# Render the earth to a file
+xplanet -num_times 1 -output "$OUTPUT" -geometry 1920x1080
+
+# Open the image with the default viewer
+xdg-open "$OUTPUT" &
