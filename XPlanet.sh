@@ -1,12 +1,9 @@
 #!/bin/bash
-
-# X-Planet God View
-# Renders a real-time, high-res model of the Earth to an image and opens it.
-
+# XPlanet Debug Launcher
+exec > /tmp/xplanet_debug.log 2>&1
+echo "Starting XPlanet at $(date)"
 OUTPUT="/tmp/xplanet_earth.png"
-
-# Render the earth to a file
-xplanet -num_times 1 -output "$OUTPUT" -geometry 1920x1080
-
-# Open the image with the default viewer
-xdg-open "$OUTPUT" &
+/usr/bin/xplanet -num_times 1 -output "$OUTPUT" -geometry 1200x800
+echo "XPlanet exited with code $? (Image saved to $OUTPUT)"
+/usr/bin/xdg-open "$OUTPUT"
+echo "xdg-open exited with code $?"

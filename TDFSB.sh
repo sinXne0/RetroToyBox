@@ -1,8 +1,6 @@
 #!/bin/bash
-
-# TDFSB - 3D File System Browser
-# Fly through your directories in 3D.
-# Controls: WASD to move, Mouse to look, ESC to quit.
-
-# Running without arguments starts at root or home
-tdfsb
+# TDFSB Debug Launcher
+exec > /tmp/tdfsb_debug.log 2>&1
+echo "Starting TDFSB at $(date)"
+/usr/bin/tdfsb
+echo "TDFSB exited with code $?"
